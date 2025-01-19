@@ -10,7 +10,7 @@ public interface CarPostStoreService {
 
     List<CarPostDto> getCarForSales();
 
-    void changeCarForSale(CarPostDto carPostDto, String id);
+    void changeCarForSale(CarPostDto carPost, String id);
 
     void removeCarForSale(String id);
 }
